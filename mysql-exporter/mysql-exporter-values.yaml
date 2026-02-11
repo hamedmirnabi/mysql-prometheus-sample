@@ -1,0 +1,13 @@
+## configure exporter here
+mysql:
+  host: "mysql.database.svc.cluster.local"
+  user: "mysqluser"
+  port: 3306
+  existingPasswordSecret:
+    name: "mysql-secret"
+    key: "MYSQL_PASSWORD"
+
+serviceMonitor:
+  enabled: true
+  additionalLables:
+    release: prometheus
