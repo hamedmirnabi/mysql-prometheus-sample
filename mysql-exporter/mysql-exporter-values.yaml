@@ -1,6 +1,6 @@
 ## configure exporter here
 mysql:
-  host: "mysql.database.svc.cluster.local"
+  host: "mysql.database-monitoring.svc.cluster.local"
   user: "mysqluser"
   port: 3306
   existingPasswordSecret:

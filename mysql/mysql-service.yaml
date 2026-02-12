@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mysql
-  namespace: database
+  namespace: database-monitoring
   labels:
     app: mysql
 spec:
