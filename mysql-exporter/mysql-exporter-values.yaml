@@ -9,5 +9,5 @@ mysql:
 
 serviceMonitor:
   enabled: true
-  additionalLables:
+  additionalLabels:
     release: prometheus
